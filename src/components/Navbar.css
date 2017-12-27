@@ -1,5 +1,9 @@
 .navbar-brand {
-  color: #333;
+  color: #white;
+}
+
+.bg-inverse {
+    background-color: #292b2c!important;
 }
 
 a {

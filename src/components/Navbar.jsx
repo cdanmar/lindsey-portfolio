@@ -5,7 +5,7 @@ import './Navbar.css';
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-toggleable-md">
+      <nav className="navbar bg-inverse navbar-toggleable-md">
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

@@ -76,36 +76,36 @@ const photos = [
     height: 3
   },
   {
-    src: 'https://source.unsplash.com/1200x1600/?Tokyo',
+    src: 'https://source.unsplash.com/1200x1600/?fish',
     srcSet: [
-      'https://source.unsplash.com/375x500/?Tokyo 375w',
-      'https://source.unsplash.com/600x800/?Tokyo 600w',
-      'https://source.unsplash.com/768x1024/?Tokyo 768w',
-      'https://source.unsplash.com/1200x1600/?Tokyo 1200w'
+      'https://source.unsplash.com/375x500/?fish 375w',
+      'https://source.unsplash.com/600x800/?fish 600w',
+      'https://source.unsplash.com/768x1024/?fish 768w',
+      'https://source.unsplash.com/1200x1600/?fish 1200w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 3,
     height: 4
   },
   {
-    src: 'https://source.unsplash.com/1600x1200/?desert',
+    src: 'https://source.unsplash.com/1600x1200/?art',
     srcSet: [
-      'https://source.unsplash.com/500x375/?desert 500w',
-      'https://source.unsplash.com/800x600/?desert 800w',
-      'https://source.unsplash.com/1024x768/?desert 1024w',
-      'https://source.unsplash.com/1600x1200/?desert 1600w'
+      'https://source.unsplash.com/500x375/?art 500w',
+      'https://source.unsplash.com/800x600/?art 800w',
+      'https://source.unsplash.com/1024x768/?art 1024w',
+      'https://source.unsplash.com/1600x1200/?art 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 4,
     height: 3
   },
   {
-    src: 'https://source.unsplash.com/1600x1200/?rocks',
+    src: 'https://source.unsplash.com/1600x1200/?dance',
     srcSet: [
-      'https://source.unsplash.com/500x375/?rocks 500w',
-      'https://source.unsplash.com/800x600/?rocks 800w',
-      'https://source.unsplash.com/1024x768/?rocks 1024w',
-      'https://source.unsplash.com/1600x1200/?rocks 1600w'
+      'https://source.unsplash.com/500x375/?dance 500w',
+      'https://source.unsplash.com/800x600/?dance 800w',
+      'https://source.unsplash.com/1024x768/?dance 1024w',
+      'https://source.unsplash.com/1600x1200/?dance 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 4,
