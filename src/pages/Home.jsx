@@ -14,6 +14,7 @@ class Home extends Component {
         <div className="container">
           <Images />
         </div>
+        <Footer />
       </div>
     )
   };

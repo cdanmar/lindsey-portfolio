@@ -1,111 +1,111 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
 const photos = [
   {
-    src: 'https://source.unsplash.com/2ShvY8Lf6l0/1600x1200',
+    src: 'https://source.unsplash.com/1600x900/?nature,clouds',
     srcSet: [
-      'https://source.unsplash.com/2ShvY8Lf6l0/500x375 500w',
-      'https://source.unsplash.com/2ShvY8Lf6l0/800x600 800w',
-      'https://source.unsplash.com/2ShvY8Lf6l0/1024x768 1024w',
-      'https://source.unsplash.com/2ShvY8Lf6l0/1600x1200 1600w'
+      'https://source.unsplash.com/500x375/?nature,clouds 500w',
+      'https://source.unsplash.com/800x600/?nature,clouds/ 800w',
+      'https://source.unsplash.com/1024x768/?nature,clouds/ 1024w',
+      'https://source.unsplash.com/1600x1200/?nature,clouds/ 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 4,
     height: 3
   },
   {
-    src: 'https://source.unsplash.com/Dm-qxdynoEc/1600x1600',
+    src: 'https://source.unsplash.com/1600x900/?dog',
     srcSet: [
-      'https://source.unsplash.com/Dm-qxdynoEc/500x500 500w',
-      'https://source.unsplash.com/Dm-qxdynoEc/800x800 800w',
-      'https://source.unsplash.com/Dm-qxdynoEc/1024x1024 1024w',
-      'https://source.unsplash.com/Dm-qxdynoEc/1600x1600 1600w'
+      'https://source.unsplash.com/500x375/?dog 500w',
+      'https://source.unsplash.com/800x600/?dog 800w',
+      'https://source.unsplash.com/1024x768/?dog 1024w',
+      'https://source.unsplash.com/1600x1200/?dog 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 1,
     height: 1
   },
   {
-    src: 'https://source.unsplash.com/qDkso9nvCg0/1200x1600',
+    src: 'https://source.unsplash.com/1600x900/?sunset,ocean',
     srcSet: [
-      'https://source.unsplash.com/qDkso9nvCg0/375x500 375w',
-      'https://source.unsplash.com/qDkso9nvCg0/600x800 600w',
-      'https://source.unsplash.com/qDkso9nvCg0/768x1024 768w',
-      'https://source.unsplash.com/qDkso9nvCg0/1200x1600 1200w'
+      'https://source.unsplash.com/375x500/?sunset,ocean 375w',
+      'https://source.unsplash.com/600x800/?sunset,ocean 600w',
+      'https://source.unsplash.com/768x1024/?sunset,ocean 768w',
+      'https://source.unsplash.com/1200x1600/?sunset,ocean 1200w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 3,
     height: 4
   },
   {
-    src: 'https://source.unsplash.com/iecJiKe_RNg/1200x1600',
+    src: 'https://source.unsplash.com/1600x900/?cat,yarn',
     srcSet: [
-      'https://source.unsplash.com/iecJiKe_RNg/375x500 375w',
-      'https://source.unsplash.com/iecJiKe_RNg/600x800 600w',
-      'https://source.unsplash.com/iecJiKe_RNg/768x1024 768w',
-      'https://source.unsplash.com/iecJiKe_RNg/1200x1600 1200w'
+      'https://source.unsplash.com/375x500/?cat,yarn 375w',
+      'https://source.unsplash.com/600x800/?cat,yarn 600w',
+      'https://source.unsplash.com/768x1024/?cat,yarn 768w',
+      'https://source.unsplash.com/1200x1600/?cat,yarn 1200w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 3,
     height: 4
   },
   {
-    src: 'https://source.unsplash.com/epcsn8Ed8kY/1200x1600',
+    src: 'https://source.unsplash.com/1600x900/?forest',
     srcSet: [
-      'https://source.unsplash.com/epcsn8Ed8kY/375x500 375w',
-      'https://source.unsplash.com/epcsn8Ed8kY/600x800 600w',
-      'https://source.unsplash.com/epcsn8Ed8kY/768x1024 768w',
-      'https://source.unsplash.com/epcsn8Ed8kY/1200x1600 1200w'
+      'https://source.unsplash.com/375x500/?forest 375w',
+      'https://source.unsplash.com/600x800/?forest 600w',
+      'https://source.unsplash.com/768x1024/?forest 768w',
+      'https://source.unsplash.com/1200x1600/?forest 1200w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 3,
     height: 4
   },
   {
-    src: 'https://source.unsplash.com/NQSWvyVRIJk/1600x1200',
+    src: 'https://source.unsplash.com/1600x1200/?space',
     srcSet: [
-      'https://source.unsplash.com/NQSWvyVRIJk/500x375 500w',
-      'https://source.unsplash.com/NQSWvyVRIJk/800x600 800w',
-      'https://source.unsplash.com/NQSWvyVRIJk/1024x768 1024w',
-      'https://source.unsplash.com/NQSWvyVRIJk/1600x1200 1600w'
+      'https://source.unsplash.com/500x375/?space 500w',
+      'https://source.unsplash.com/800x600/?space 800w',
+      'https://source.unsplash.com/1024x768/?space 1024w',
+      'https://source.unsplash.com/1600x1200/?space 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 4,
     height: 3
   },
   {
-    src: 'https://source.unsplash.com/zh7GEuORbUw/1200x1600',
+    src: 'https://source.unsplash.com/1200x1600/?Tokyo',
     srcSet: [
-      'https://source.unsplash.com/zh7GEuORbUw/375x500 375w',
-      'https://source.unsplash.com/zh7GEuORbUw/600x800 600w',
-      'https://source.unsplash.com/zh7GEuORbUw/768x1024 768w',
-      'https://source.unsplash.com/zh7GEuORbUw/1200x1600 1200w'
+      'https://source.unsplash.com/375x500/?Tokyo 375w',
+      'https://source.unsplash.com/600x800/?Tokyo 600w',
+      'https://source.unsplash.com/768x1024/?Tokyo 768w',
+      'https://source.unsplash.com/1200x1600/?Tokyo 1200w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 3,
     height: 4
   },
   {
-    src: 'https://source.unsplash.com/PpOHJezOalU/1600x1200',
+    src: 'https://source.unsplash.com/1600x1200/?desert',
     srcSet: [
-      'https://source.unsplash.com/PpOHJezOalU/500x375 500w',
-      'https://source.unsplash.com/PpOHJezOalU/800x600 800w',
-      'https://source.unsplash.com/PpOHJezOalU/1024x768 1024w',
-      'https://source.unsplash.com/PpOHJezOalU/1600x1200 1600w'
+      'https://source.unsplash.com/500x375/?desert 500w',
+      'https://source.unsplash.com/800x600/?desert 800w',
+      'https://source.unsplash.com/1024x768/?desert 1024w',
+      'https://source.unsplash.com/1600x1200/?desert 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 4,
     height: 3
   },
   {
-    src: 'https://source.unsplash.com/I1ASdgphUH4/1600x1200',
+    src: 'https://source.unsplash.com/1600x1200/?rocks',
     srcSet: [
-      'https://source.unsplash.com/I1ASdgphUH4/500x375 500w',
-      'https://source.unsplash.com/I1ASdgphUH4/800x600 800w',
-      'https://source.unsplash.com/I1ASdgphUH4/1024x768 1024w',
-      'https://source.unsplash.com/I1ASdgphUH4/1600x1200 1600w'
+      'https://source.unsplash.com/500x375/?rocks 500w',
+      'https://source.unsplash.com/800x600/?rocks 800w',
+      'https://source.unsplash.com/1024x768/?rocks 1024w',
+      'https://source.unsplash.com/1600x1200/?rocks 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 4,
