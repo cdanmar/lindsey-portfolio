@@ -11,9 +11,13 @@ class Home extends Component {
       <div>
         <Navbar />
         <Jumbotron title ="Welcome" subtitle="This is a working example of React Router working with bootstrap. Feel free to copy it for your project." />
+        <br />
         <div className="container">
           <Images />
         </div>
+        <br />
+        <br />
+        <br />
         <Footer />
       </div>
     )

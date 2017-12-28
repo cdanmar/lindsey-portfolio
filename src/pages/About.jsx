@@ -15,11 +15,11 @@ class About extends Component {
           <div className="outer-div">
             <div className="row">
               <div className="inner-divcol-lg-4 col-sm-12 text-center mb-4">
-                <img className="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="" />
+                <img className="rounded" src={require('../images/headshot.jpeg')} alt="" />
                 <br />
                 <h3>Carlos Martinez
                 </h3>
-                <p>"Man, I finally got the CSS right!"</p>
+                <p><i>"Man, I finally got the CSS right!"</i></p>
               </div>
             </div>
             <div>
