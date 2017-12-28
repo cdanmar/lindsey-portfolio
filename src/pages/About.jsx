@@ -15,7 +15,7 @@ class About extends Component {
           <div className="outer-div">
             <div className="row">
               <div className="inner-divcol-lg-4 col-sm-12 text-center mb-4">
-                <img className="rounded" src={require('../images/headshot.jpeg')} alt="" />
+                <img className="rounded" src={require('../images/headshot.jpg')} alt="" />
                 <br />
                 <h3>Carlos Martinez
                 </h3>
