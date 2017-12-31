@@ -1,0 +1,36 @@
+.text-center {
+    text-align: center!important;
+}
+
+.outer-div
+{
+  padding: 30px;
+  background-color: #f3f3f3;
+}
+.inner-div
+{
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+.inner-div
+{
+     margin: auto;
+     width: 100px;
+     height: 100px;
+}
+
+.list-social-icons a {
+color: #495057;
+}
+
+.list-social-icons a:hover {
+  color: #BD5D38;
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}

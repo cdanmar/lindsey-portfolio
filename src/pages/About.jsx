@@ -20,6 +20,32 @@ class About extends Component {
                 <h3>Carlos Martinez
                 </h3>
                 <p><i>"Man, I finally got the CSS right!"</i></p>
+                <ul className="list-inline list-social-icons mb-0">
+                <li className="list-inline-item">
+                  <a href="mailto:cdanmar@gmail.com">
+                    <span className="fa-stack fa-lg">
+                      <i className="fa fa-circle fa-stack-2x"></i>
+                      <i className="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="https://www.linkedin.com/in/carlos-martinez-17ab15126/">
+                    <span className="fa-stack fa-lg">
+                      <i className="fa fa-circle fa-stack-2x"></i>
+                      <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="">
+                    <span className="fa-stack fa-lg">
+                      <i className="fa fa-circle fa-stack-2x"></i>
+                      <i className="fa fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
               </div>
             </div>
             <div>
