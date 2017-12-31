@@ -38,7 +38,7 @@ class About extends Component {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="">
+                  <a href="https://github.com/cdanmar/react_router_bootstrap">
                     <span className="fa-stack fa-lg">
                       <i className="fa fa-circle fa-stack-2x"></i>
                       <i className="fa fa-github fa-stack-1x fa-inverse"></i>
