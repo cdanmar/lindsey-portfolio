@@ -5,8 +5,8 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-      <div className="container">
-        <span className="text-muted">Example Website Footer with example Copyright Component &#169; {new Date().getFullYear()}</span>
+      <div className="container text-center">
+        <span className="text-muted">Lindsey Wiseman &#169; {new Date().getFullYear()}</span>
       </div>
     </footer>
     );

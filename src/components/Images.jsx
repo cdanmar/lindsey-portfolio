@@ -4,113 +4,103 @@ import Lightbox from 'react-images';
 
 const photos = [
   {
-    src: 'https://source.unsplash.com/1600x900/?nature,clouds',
+    src: 'https://res.cloudinary.com/cdanmar/image/upload/v1514961485/lindsey_paintings/423900_orig.jpg',
     srcSet: [
-      'https://source.unsplash.com/500x375/?nature,clouds 500w',
-      'https://source.unsplash.com/800x600/?nature,clouds/ 800w',
-      'https://source.unsplash.com/1024x768/?nature,clouds/ 1024w',
-      'https://source.unsplash.com/1600x1200/?nature,clouds/ 1600w'
-    ],
-    sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
-    width: 4,
-    height: 3
-  },
-  {
-    src: 'https://source.unsplash.com/1600x900/?dog',
-    srcSet: [
-      'https://source.unsplash.com/500x375/?dog 500w',
-      'https://source.unsplash.com/800x600/?dog 800w',
-      'https://source.unsplash.com/1024x768/?dog 1024w',
-      'https://source.unsplash.com/1600x1200/?dog 1600w'
-    ],
-    sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
-    width: 1,
-    height: 1
-  },
-  {
-    src: 'https://source.unsplash.com/1600x900/?sunset,ocean',
-    srcSet: [
-      'https://source.unsplash.com/375x500/?sunset,ocean 375w',
-      'https://source.unsplash.com/600x800/?sunset,ocean 600w',
-      'https://source.unsplash.com/768x1024/?sunset,ocean 768w',
-      'https://source.unsplash.com/1200x1600/?sunset,ocean 1200w'
+      'https://res.cloudinary.com/cdanmar/image/upload/w_375,h_500/lindsey_paintings/423900_orig.jpg 500w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_600,h_800/lindsey_paintings/423900_orig.jpg 800w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_768,h_1024/lindsey_paintings/423900_orig.jpg 1024w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_1200,h_1600/lindsey_paintings/423900_orig.jpg 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 3,
     height: 4
   },
   {
-    src: 'https://source.unsplash.com/1600x900/?cat,yarn',
+    src: 'https://res.cloudinary.com/cdanmar/image/upload/v1514961484/lindsey_paintings/7137152_orig.jpg',
     srcSet: [
-      'https://source.unsplash.com/375x500/?cat,yarn 375w',
-      'https://source.unsplash.com/600x800/?cat,yarn 600w',
-      'https://source.unsplash.com/768x1024/?cat,yarn 768w',
-      'https://source.unsplash.com/1200x1600/?cat,yarn 1200w'
-    ],
-    sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
-    width: 3,
-    height: 4
-  },
-  {
-    src: 'https://source.unsplash.com/1600x900/?forest',
-    srcSet: [
-      'https://source.unsplash.com/375x500/?forest 375w',
-      'https://source.unsplash.com/600x800/?forest 600w',
-      'https://source.unsplash.com/768x1024/?forest 768w',
-      'https://source.unsplash.com/1200x1600/?forest 1200w'
-    ],
-    sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
-    width: 3,
-    height: 4
-  },
-  {
-    src: 'https://source.unsplash.com/1600x1200/?space',
-    srcSet: [
-      'https://source.unsplash.com/500x375/?space 500w',
-      'https://source.unsplash.com/800x600/?space 800w',
-      'https://source.unsplash.com/1024x768/?space 1024w',
-      'https://source.unsplash.com/1600x1200/?space 1600w'
+      'https://res.cloudinary.com/cdanmar/image/upload/w_500,h_375/lindsey_paintings/7137152_orig.jpg 500w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_800,h_600/lindsey_paintings/7137152_orig.jpg 800w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_1024,h_768/lindsey_paintings/7137152_orig.jpg 1024w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_1600,h_1200/lindsey_paintings/7137152_orig.jpg 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 4,
     height: 3
   },
   {
-    src: 'https://source.unsplash.com/1200x1600/?fish',
+    src: 'https://res.cloudinary.com/cdanmar/image/upload/v1514961378/lindsey_drawings/3204964_orig.jpg',
     srcSet: [
-      'https://source.unsplash.com/375x500/?fish 375w',
-      'https://source.unsplash.com/600x800/?fish 600w',
-      'https://source.unsplash.com/768x1024/?fish 768w',
-      'https://source.unsplash.com/1200x1600/?fish 1200w'
+      'https://res.cloudinary.com/cdanmar/image/upload/w_375,h_500/lindsey_drawings/3204964_orig.jpg 500w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_600,h_800/lindsey_drawings/3204964_orig.jpg 800w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_768,h_1024/lindsey_drawings/3204964_orig.jpg 1024w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_1200,h_1600/lindsey_drawings/3204964_orig.jpg 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 3,
     height: 4
   },
   {
-    src: 'https://source.unsplash.com/1600x1200/?art',
+    src: 'https://res.cloudinary.com/cdanmar/image/upload/v1514961485/lindsey_paintings/138843_orig.jpg',
     srcSet: [
-      'https://source.unsplash.com/500x375/?art 500w',
-      'https://source.unsplash.com/800x600/?art 800w',
-      'https://source.unsplash.com/1024x768/?art 1024w',
-      'https://source.unsplash.com/1600x1200/?art 1600w'
+      'https://res.cloudinary.com/cdanmar/image/upload/w_375,h_500/lindsey_paintings/138843_orig.jpg 500w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_600,h_800/lindsey_paintings/138843_orig.jpg 800w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_768,h_1024/lindsey_paintings/138843_orig.jpg 1024w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_1200,h_1600/lindsey_paintings/138843_orig.jpg 1600w'
+    ],
+    sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
+    width: 3,
+    height: 4
+  },
+  {
+    src: 'https://res.cloudinary.com/cdanmar/image/upload/v1514961373/lindsey_drawings/2451103_orig.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/cdanmar/image/upload/w_375,h_500/lindsey_drawings/2451103_orig.jpg 375w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_600,h_800/lindsey_drawings/2451103_orig.jpg 600w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_768,h_1024/lindsey_drawings/2451103_orig.jpg 768w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_1200,h_1600/lindsey_drawings/2451103_orig.jpg 1200w'
+    ],
+    sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
+    width: 3,
+    height: 4
+  },
+  {
+    src: 'https://res.cloudinary.com/cdanmar/image/upload/v1514961482/lindsey_paintings/6437351_orig.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/cdanmar/image/upload/w_500,h_375/lindsey_paintings/6437351_orig.jpg 500w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_800,h_600/lindsey_paintings/6437351_orig.jpg 800w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_1024,h_768/lindsey_paintings/6437351_orig.jpg 1024w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_1600,h_1200/lindsey_paintings/6437351_orig.jpg 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 4,
     height: 3
   },
   {
-    src: 'https://source.unsplash.com/1600x1200/?dance',
+    src: 'https://res.cloudinary.com/cdanmar/image/upload/v1514961483/lindsey_paintings/2860613_orig.jpg',
     srcSet: [
-      'https://source.unsplash.com/500x375/?dance 500w',
-      'https://source.unsplash.com/800x600/?dance 800w',
-      'https://source.unsplash.com/1024x768/?dance 1024w',
-      'https://source.unsplash.com/1600x1200/?dance 1600w'
+      'https://res.cloudinary.com/cdanmar/image/upload/w_500,h_375/lindsey_paintings/2860613_orig.jpg 500w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_800,h_600/lindsey_paintings/2860613_orig.jpg 800w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_1024,h_768/lindsey_paintings/2860613_orig.jpg 1024w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_2200,h_1200/lindsey_paintings/2860613_orig.jpg 1600w'
     ],
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
-    width: 4,
+    width: 6,
     height: 3
-  }
+  },
+  {
+    src: 'https://res.cloudinary.com/cdanmar/image/upload/v1514961483/lindsey_paintings/307769_orig.jpg',
+    srcSet: [
+      'https://res.cloudinary.com/cdanmar/image/upload/w_375,h_500/lindsey_paintings/307769_orig.jpg 375w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_600,h_800/lindsey_paintings/307769_orig.jpg 600w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_768,h_1024/lindsey_paintings/307769_orig.jpg 768w',
+      'https://res.cloudinary.com/cdanmar/image/upload/w_1200,h_1600/lindsey_paintings/307769_orig.jpg 1200w'
+    ],
+    sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
+    width: 3,
+    height: 4
+  },
+
+
 ];
 
 class Images extends React.Component {
