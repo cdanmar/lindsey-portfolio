@@ -10,16 +10,16 @@ class About extends Component {
     return (
       <div>
         <Navbar />
-        <Jumbotron title ="About" subtitle="Notice how the title and subtitle changes when you navigate." />
+        <Jumbotron title ="About" subtitle="About the artist" />
         <div className="container">
           <div className="outer-div">
             <div className="row">
               <div className="inner-divcol-lg-4 col-sm-12 text-center mb-4">
                 <img className="rounded" src={require('../images/avatar.png')} alt="" />
                 <br />
-                <h3>Carlos Martinez
+                <h3>Lindsey Wiseman
                 </h3>
-                <p><i>"Man, I finally got the CSS right!"</i></p>
+                <p><i>"Insert Something Witty Here!"</i></p>
                 <ul className="list-inline list-social-icons mb-0">
                 <li className="list-inline-item">
                   <a href="mailto:cdanmar@gmail.com">
