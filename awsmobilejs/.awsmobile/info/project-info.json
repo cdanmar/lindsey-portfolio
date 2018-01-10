@@ -1,0 +1,22 @@
+{
+	"ProjectName": "lindsey-portfolio",
+	"ProjectPath": "/Users/carlosmartinez/Desktop/Actualize/lindsey-portfolio",
+	"SourceDir": "src",
+	"DistributionDir": "build",
+	"BuildCommand": "yarn build",
+	"StartCommand": "yarn run",
+	"InitializationTime": "2018-01-09-23-33-21",
+	"LastConfigurationTime": "2018-01-09-23-35-56",
+	"LastNPMInstallTime": "",
+	"FrontendLastBuildTime": "",
+	"LastPublishTime": "",
+	"BackendFormat": "yml",
+	"BackendLastBuildTime": "",
+	"BackendLastUpdateTime": "",
+	"BackendLastUpdateSuccessful": false,
+	"BackendProjectID": "9b91075b-2202-4f8e-acc6-b169e2d0a33d",
+	"BackendProjectName": "lindsey-portfolio",
+	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/9b91075b-2202-4f8e-acc6-b169e2d0a33d/build",
+	"BackendProjectCreationTime": "2018-01-10T05:29:46.912Z",
+	"BackendProjectLastUpdatedTime": "2018-01-10T05:30:20.585Z"
+}
